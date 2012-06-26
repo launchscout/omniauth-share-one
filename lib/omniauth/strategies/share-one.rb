@@ -4,7 +4,7 @@ require 'multi_json'
 module OmniAuth
   module Strategies
     class ShareOne < OmniAuth::Strategies::OAuth
-      option :name, 'shareone'
+      option :name, 'share-one'
       option :client_options, {:authorize_path => '/oauth/authorize',
                                :site => 'https://emery-md.nssecurebanking.org'}
 
