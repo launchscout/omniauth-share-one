@@ -2,7 +2,7 @@ require 'omniauth/strategies/oauth2'
 
 module OmniAuth
   module Strategies
-    class ShareOne < OmniAuth::Strategies::OAuth
+    class ShareOne < OmniAuth::Strategies::OAuth2
       option :name, 'share-one'
       option :client_options, {
         :site => 'https://emery-md.nssecurebanking.org',
