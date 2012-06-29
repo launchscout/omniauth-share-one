@@ -6,8 +6,8 @@ module OmniAuth
       option :name, 'share-one'
       option :client_options, {
         :site => 'https://emery-md.nssecurebanking.org',
-        :authorize_url => '/oauth2/authorize',
-        :token_url => '/oauth2/token'
+        :authorize_url => '/oauth/authorize',
+        :token_url => '/oauth/token'
       }
 
       def authorize_params
