@@ -11,7 +11,7 @@ describe OmniAuth::Strategies::ShareOne do
     end
 
     it 'should have correct site' do
-      subject.options.client_options.site.should eq('https://emery-md.nssecurebanking.org')
+      subject.options.client_options.site.should eq('https://emery.nssecurebanking.org')
     end
 
     it 'should have correct authorize url' do

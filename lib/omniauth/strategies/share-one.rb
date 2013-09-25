@@ -5,7 +5,7 @@ module OmniAuth
     class ShareOne < OmniAuth::Strategies::OAuth2
       option :name, 'share-one'
       option :client_options, {
-        :site => 'https://emery-md.nssecurebanking.org',
+        :site => 'https://emery.nssecurebanking.org',
         :authorize_url => '/oauth/authorize',
         :token_url => '/oauth/token'
       }
