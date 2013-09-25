@@ -15,7 +15,7 @@ describe OmniAuth::Strategies::ShareOne do
     end
 
     it 'should have correct authorize url' do
-      subject.options.client_options.authorize_path.should eq('/oauth/authorize')
+      subject.options.client_options.authorize_url.should eq('/oauth/authorize')
     end
   end
 end
